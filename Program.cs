@@ -19,7 +19,7 @@ string[] GetStrArray(int n)
     for (int i = 0; i < n; i++)
     {
         Console.WriteLine("Введите " + (i+1) + " строку");
-        res[i] = Console.ReadLine();
+        res[i] = Console.ReadLine()!;
     }
     return res;
 }
